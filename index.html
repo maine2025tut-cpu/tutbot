@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бот, о котором ходят легенды</title>
+    <style>
+        /* Основные стили (Desktop) */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5eedc; /* Кремовый фон как на фото */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            color: #1a1a1a;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+            max-width: 800px;
+        }
+
+        /* Круг с лупой */
+        .icon-circle {
+            background-color: #e29a5a;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .icon-circle img {
+            width: 100px;
+            height: 100px;
+        }
+
+        /* Список возможностей */
+        ul {
+            text-align: left;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #000;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .redirect-text {
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        /* Кнопка */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 80px;
+            border: 1px solid #1a1a1a;
+            background: transparent;
+            text-decoration: none;
+            color: #1a1a1a;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        .btn svg {
+            margin-left: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Адаптация под мобильные устройства */
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; padding: 0 10px; }
+            .container { flex-direction: column; gap: 20px; }
+            .icon-circle { width: 140px; height: 140px; }
+            .icon-circle img { width: 80px; height: 80px; }
+            ul { font-size: 1rem; padding-left: 20px; }
+            .btn { width: 85%; padding: 15px 0; }
+        }
+    </style>
+    
+    <script>
+        setTimeout(function(){
+            window.location.href = "https://t.me/+VflMpTrRxDEwNjMx"; // ЗАМЕНИТЕ НА ВАШУ ССЫЛКУ
+        }, 3000); 
+    </script>
+</head>
+<body>
+
+    <h1>Канал, о котором ходят легенды</h1>
+    <p class="subtitle">ОН НАЙДЕТ О ЧЕЛОВЕКЕ ВСЁ:</p>
+
+    <div class="container">
+        <div class="icon-circle">
+            <span style="font-size: 80px;">🔍</span>
+        </div>
+        <ul>
+            <li>Доступ к Ватсап</li>
+            <li>Доступ к любым соц.сетям</li>
+            <li>Вайбер, Instagram</li>
+            <li>Установка местоположение.</li>
+            <li>Доступ к камере,микрофону</li>
+            <li>История и запись звонков</li>
+            <li>Доступ к галерее</li>
+            <li>Восстановление забытых аккаунтов</li>
+        </ul>
+    </div>
+
+    <p class="redirect-text">Через 3 секунды вас перекинет на актуальную версию бота...</p>
+
+    <a href="https://t.me/ВАШ_КАНАЛ" class="btn"> ПЕРЕЙТИ В БОТ
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </a>
+
+</body>
+</html>
